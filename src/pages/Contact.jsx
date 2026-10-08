@@ -25,7 +25,7 @@ export default function Contact() {
         {/* Contact Information */}
         <div className="lg:col-span-5 space-y-6">
           <div className="glass-card p-8 rounded-3xl border border-gray-800 space-y-6">
-            <img src="/images/card.webp" alt="Oyebade Ayomide Adeleke" width="800" height="1400" loading="lazy" className="w-full h-64 rounded-2xl object-cover object-top bg-white" />
+            <img src="\images\20260927_135322.jpg" alt="Oyebade Ayomide Adeleke" width="800" height="1400" loading="lazy" className="w-full h-64 rounded-2xl object-cover object-top bg-white" />
             <h3 className="text-xl font-bold text-white">Direct Contacts</h3>
             
             <div className="space-y-4 text-sm text-gray-300">
