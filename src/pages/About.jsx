@@ -59,7 +59,7 @@ export default function About() {
         <div className="lg:col-span-5 space-y-6">
           <div className="relative">
             <div className="absolute -inset-3 rounded-[2rem] bg-gradient-to-br from-indigo-500/30 to-fuchsia-500/20 blur-2xl" />
-            <img src="/images/about.webp" alt="Oyebade Ayomide Adeleke in a striped shirt" width="900" height="1200" loading="lazy" className="relative rounded-3xl w-full aspect-[4/5] object-cover object-top border border-white/10" />
+            <img src="/images/20260927_135322.jpg" alt="Oyebade Ayomide Adeleke in a striped shirt" width="900" height="1200" loading="lazy" className="relative rounded-3xl w-full aspect-[4/5] object-cover object-top border border-white/10" />
             <img src="/images/about-alt.webp" alt="Ayomide in traditional wear at his desk" width="600" height="600" loading="lazy" className="absolute -bottom-5 -right-3 w-28 h-28 sm:w-36 sm:h-36 rounded-2xl object-cover border-4 border-[#07070d] shadow-2xl" />
           </div>
           <div className="glass-card p-8 rounded-3xl border border-indigo-500/30 space-y-6 relative overflow-hidden">
