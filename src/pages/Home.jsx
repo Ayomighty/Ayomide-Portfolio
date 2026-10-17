@@ -23,13 +23,13 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
-            Hello, I am <strong className="text-white">Oyebade Ayomide Adeleke</strong>. A professional web developer with 1 to 2 years of hands-on experience building lightning-fast React applications, e-commerce stores, Custom Websites and Web Apps, and responsive web platforms. Trained at Larva Tech Academy in New Bodija, Ibadan.
+            Hello, I am <strong className="text-white">Oyebade Ayomide Adeleke</strong>. A Frontend web developer with 1 to 2 years of hands-on experience building React applications, e-commerce stores, Custom Websites, and Web Apps. Trained at Larva Tech Academy in New Bodija, Ibadan.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-4">
             <Link
               to="/projects"
-              className="px-7 py-3.5 rounded-xl font-semibold text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 shadow-xl shadow-indigo-600/30 transition-all flex items-center gap-2 group"
+              className="px-7 py-3.5 rounded-xl font-semibold text-white bg-linear-to-r  from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 shadow-xl shadow-indigo-600/30 transition-all flex items-center gap-2 group"
             >
               Explore My Projects
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -65,13 +65,13 @@ export default function Home() {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="lg:col-span-5 relative max-w-md mx-auto w-full"
         >
-          <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-tr from-indigo-500/40 via-fuchsia-500/20 to-amber-300/30 blur-2xl" />
-          <div className="relative rounded-[2rem] p-1.5 bg-gradient-to-br from-white/30 via-white/5 to-indigo-400/40">
+          <div className="absolute -inset-4 rounded-[2.5rem] bg-linear-to-tr from-indigo-500/40 via-fuchsia-500/20 to-amber-300/30 blur-2xl" />
+          <div className="relative rounded-4xl p-1.5 bg-linear-to-br from-white/30 via-white/5 to-indigo-400/40">
             <img
               src="/images/hero.webp"
               alt="Oyebade Ayomide Adeleke at his desk with code open on the monitor"
               width="1000" height="1000" fetchPriority="high"
-              className="rounded-[1.7rem] w-full aspect-[4/5] object-cover"
+              className="rounded-[1.7rem] w-full aspect-4/5 object-cover"
             />
           </div>
           <div className="glass-card absolute -top-4 right-2 sm:-right-6 rounded-full px-4 py-2 text-xs flex items-center gap-2 shadow-2xl">
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <h2 className="text-3xl font-bold text-white">Why Work With Me?</h2>
           <p className="text-gray-400">
-            Backed by rigorous training at Larva Tech Academy and real-world project deployments, I deliver secure, scalable, and visually breathtaking web applications.
+            Backed by training at Larva Tech Academy and real-world project deployments, I build responsive, clean web applications.
           </p>
         </div>
 
@@ -138,9 +138,9 @@ export default function Home() {
             <div className="w-12 h-12 rounded-xl bg-purple-600/20 text-purple-400 flex items-center justify-center mb-6">
               <Cpu className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-semibold text-white mb-3">Full-Stack Capability</h3>
+            <h3 className="text-xl font-semibold text-white mb-3">Backend in training</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Equipped with frontend mastery and advanced backend training (Node.js, Express, Databases) to build end-to-end web applications.
+              Strong frontend skills, plus ongoing backend training (Node.js, Express, databases).
             </p>
           </div>
 
@@ -150,7 +150,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold text-white mb-3">Larva Tech Trained</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Trained at Larva Tech Academy in New Bodija, Ibadan, adhering to strict coding standards, performance audits, and security best practices.
+              Trained at Larva Tech Academy in New Bodija, Ibadan, with a focus on clean code and responsive design.
             </p>
           </div>
         </div>

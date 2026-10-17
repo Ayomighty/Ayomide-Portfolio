@@ -16,7 +16,7 @@ export default function Experience() {
           <div className="absolute top-0 left-0 w-2 h-full bg-indigo-600"></div>
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-gray-800">
             <div>
-              <h3 className="text-2xl font-bold text-white">Frontend & Full-Stack Developer(In training)</h3>
+              <h3 className="text-2xl font-bold text-white">Frontend Developer(backend In training)</h3>
               <p className="text-indigo-400 font-medium">Freelance & Personal Ventures</p>
             </div>
             <div className="flex items-center gap-2 text-xs text-gray-400 bg-gray-900 px-3 py-1.5 rounded-lg border border-gray-800 w-fit">
@@ -26,12 +26,12 @@ export default function Experience() {
 
           <div className="pt-6 space-y-4 text-gray-300">
             <p className="leading-relaxed">
-              Designed and deployed multiple fully functional production web applications on Vercel, including the Stockroom E-Commerce store, tech conference landing pages, and interactive coding bootcamp academies.
+              Designed and deployed web apps on Vercel, including the Stockroom e-commerce store, tech conference landing pages, and an interactive coding bootcamp site (all are Frontend demos).
             </p>
             <div className="space-y-2 text-sm pt-2">
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> Developed responsive user interfaces using HTML, CSS, TailwindCSS, and React.js.</div>
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> Implemented state management, interactive cart drawers, product filters, and client-side routing.</div>
-              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> Integrated secure contact channels, WhatsApp connectivity, and dynamic data rendering.</div>
+              <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> Built a Whatsapp contact flow and rendered live data from an API.</div>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function Experience() {
 
           <div className="pt-6 space-y-4 text-gray-300">
             <p className="leading-relaxed">
-              Underwent rigorous professional training at 5 Akinsehinwa Street, New Bodija, Ibadan, mastering core frontend architectures and transitioning into full-stack backend development.
+              Trained at 5 Akinsehinwa Street, New Bodija, Ibadan, covering frontend fundamentals and now moving into backend development.
             </p>
             <div className="space-y-2 text-sm pt-2">
               <div className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-emerald-400" /> Built complex grid layouts and responsive web components.</div>

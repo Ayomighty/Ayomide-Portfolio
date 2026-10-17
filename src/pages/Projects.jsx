@@ -6,7 +6,7 @@ export default function Projects() {
     {
       title: "Stockroom E-Commerce Web App",
       category: "Full-Featured E-Commerce Store",
-      description: "An exquisite e-commerce web application featuring product catalogs across Beauty, Fragrances, Furniture, and Home Decor, search filters, interactive cart drawer, user login/demo mode, and secure checkout workflows.",
+      description: "An e-commerce web app with products catalogs across Beauty, Fragrances, and Home Decor, search filters, an interactive cart drawer, and a demo login.",
       link: "https://e-commerce-tau-seven-93.vercel.app/",
       slug: "stockroom",
       kind: "shop",
@@ -16,7 +16,7 @@ export default function Projects() {
     {
       title: "Styles Conference (Chicago Edition)",
       category: "Tech Conference Landing Page",
-      description: "An immaculate, production-ready tech conference landing page featuring event schedules, speaker lineups, venue details, countdown timers, and registration modals.",
+      description: "A tech conference landing page with event schedules, speaker lineups, venue details, a countdown timer, and registration modals.",
       link: "https://chicago-lyart.vercel.app/",
       slug: "styles-conference",
       kind: "conference",
@@ -24,7 +24,7 @@ export default function Projects() {
       tagColor: "bg-indigo-500/10 text-indigo-400 border-indigo-500/30"
     },
     {
-      title: "El_tech Academy Full-Stack Bootcamp",
+      title: "El_tech Academy Bootcamp Platform",
       category: "EdTech Learning Platform",
       description: "An immersive coding bootcamp and learning platform featuring 12 comprehensive modules, interactive code labs, student dashboards, and gamified badge tracking.",
       link: "https://bootcamp-livid-two.vercel.app/",
@@ -38,7 +38,7 @@ export default function Projects() {
       category: "Retail Web Store",
       description: "Specialized skincare retail web deployment featuring curated product displays, location details in Ibadan, and customer support channels.",
       link: "https://twinzlove-ochre.vercel.app/",
-      slug: "twinzlove",
+      slug: "refined-twinzlove",
       kind: "skincare",
       icon: <Sparkles className="w-6 h-6 text-pink-400" />,
       tagColor: "bg-pink-500/10 text-pink-400 border-pink-500/30"
@@ -60,7 +60,7 @@ export default function Projects() {
       <div className="text-center max-w-3xl mx-auto space-y-4">
         <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">Featured Projects</h1>
         <p className="text-gray-400 text-lg">
-          Explore my live production deployments. Click any project card to launch the live Vercel application in a new tab.
+          Click any project card to open the live site on Vercel in a new tab. Each card shows what works and what's next.
         </p>
       </div>
 

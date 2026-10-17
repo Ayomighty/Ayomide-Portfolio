@@ -13,7 +13,7 @@ export default function Footer() {
             <span className="text-lg font-bold text-white tracking-wide">Oyebade Ayomide Adeleke</span>
           </div>
           <p className="text-gray-400 leading-relaxed text-xs">
-            Professional Frontend & Full-Stack Web Developer. Trained at Larva Tech Academy, New Bodija, Ibadan. Dedicated to building immaculate, high-performance web solutions with top-tier security and responsiveness.
+            Frontend Web Developer. Trained at Larva Tech Academy, New Bodija, Ibadan. I build responsive React websites and I'm learning backend development.
           </p>
           <div className="flex items-center gap-2 text-emerald-400 font-medium text-xs bg-emerald-950/40 border border-emerald-500/30 px-3 py-2 rounded-lg w-fit">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
@@ -44,18 +44,25 @@ export default function Footer() {
             <a href="https://wa.me/2348162487439" target="_blank" rel="noopener noreferrer" className="px-3 py-2 rounded-lg bg-gray-900 border border-gray-800 hover:border-indigo-500 text-gray-300 hover:text-white transition-all">
               WhatsApp (+2348162487439)
             </a>
+            <a href="mailto:ayomideoyebade884@gmail.com" className="px-3 py-2 rounded-lg bg-gray-900 border border-gray-800 hover:border-indigo-500 text-gray-300 hover:text-white transition-all">
+              Gmail
+            </a>
+            <a href="https://github.com/Ayomighty" target="_blank" rel="noopener noreferrer" className="px-3 py-2 rounded-lg bg-gray-900 border border-gray-800 hover:border-indigo-500 text-gray-300 hover:text-white transition-all">
+            GitHub
+            </a>
+            <a href="https://ng.linkedin.com/in/ayomide-oyebade-b66807444" target="_blank" rel="noopener noreferrer" className="px-3 py-2 rounded-lg bg-gray-900 border border-gray-800 hover:border-indigo-500 text-gray-300 hover:text-white transition-all">
+            LinkedIn
+            </a>
             <a href="https://snapchat.com/add/shinigam.i" target="_blank" rel="noopener noreferrer" className="px-3 py-2 rounded-lg bg-gray-900 border border-gray-800 hover:border-indigo-500 text-gray-300 hover:text-white transition-all">
               Snapchat (@shinigam.i)
             </a>
             <a href="https://tiktok.com/@h.o.l.l.y_g.h.o.s.t" target="_blank" rel="noopener noreferrer" className="px-3 py-2 rounded-lg bg-gray-900 border border-gray-800 hover:border-indigo-500 text-gray-300 hover:text-white transition-all">
               TikTok (@h.o.l.l.y_g.h.o.s.t)
             </a>
-            <a href="mailto:ayomideoyebade884@gmail.com" className="px-3 py-2 rounded-lg bg-gray-900 border border-gray-800 hover:border-indigo-500 text-gray-300 hover:text-white transition-all">
-              Gmail
-            </a>
+            
           </div>
           <p className="text-xs text-gray-500 pt-2">
-            Available for remote contracts, freelance development, and full-stack engineering roles.
+            Available for remote contracts, freelance work, internships, and frontend roles.
           </p>
         </div>
       </div>

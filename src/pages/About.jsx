@@ -1,6 +1,6 @@
 import { MapPin, GraduationCap, ShieldCheck, Phone, Mail, CheckCircle } from 'lucide-react';
 
-export default function About() {
+  export default function About() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
       <div className="text-center max-w-3xl mx-auto space-y-4">
@@ -23,7 +23,7 @@ export default function About() {
               I completed my professional tech training at <strong className="text-white">Larva Tech Academy</strong>, located at <span className="text-indigo-300">5 Akinsehinwa Street, off Favos Bus stop, beside Adis hotel, New Bodija, Ibadan 200212, Oyo State</span>. This rigorous training grounded me in modern web architecture, clean code principles, and advanced JavaScript frameworks.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I am also a Computer Science and Education student at Osun State University, Ipetu-Ijesa campus. Currently, I am in the final stages of my advanced backend training, allowing me to architect seamless full-stack applications from database design to responsive frontend interfaces.
+              I am also a Computer Science and Education student at Osun State University, Ipetu-Ijesa campus. Currently, I am in the final stages of my backend training(Node.js, Express and databases) to go with my frontend skills.
             </p>
           </div>
 
@@ -58,9 +58,9 @@ export default function About() {
         {/* Academy & Credential Card */}
         <div className="lg:col-span-5 space-y-6">
           <div className="relative">
-            <div className="absolute -inset-3 rounded-[2rem] bg-gradient-to-br from-indigo-500/30 to-fuchsia-500/20 blur-2xl" />
-            <img src="/images/20260927_135322.jpg" alt="Oyebade Ayomide Adeleke in a striped shirt" width="900" height="1200" loading="lazy" className="relative rounded-3xl w-full aspect-[4/5] object-cover object-top border border-white/10" />
-            <img src="/images/about-alt.webp" alt="Ayomide in traditional wear at his desk" width="600" height="600" loading="lazy" className="absolute -bottom-5 -right-3 w-28 h-28 sm:w-36 sm:h-36 rounded-2xl object-cover border-4 border-[#07070d] shadow-2xl" />
+            <div className="absolute -inset-3 rounded-4xl bg-linear-to-br from-indigo-500/30 to-fuchsia-500/20 blur-2xl" />
+            <img src="/images/20260927_135322.jpg" alt="Oyebade Ayomide Adeleke in a striped shirt" width="900" height="1200" loading="lazy" className="relative rounded-3xl w-full aspect-4/5 object-cover object-top border border-white/10" />
+            <img src="/images/about-alt.webp" alt="Ayomide in traditional wear at his desk" width="600" height="600" loading="lazy" className="absolute -bottom-5 -right-3 w-28 h-28 sm:w-36 sm:h-36 rounded-2xl object-cover border-4 border-darkBg shadow-2xl" />
           </div>
           <div className="glass-card p-8 rounded-3xl border border-indigo-500/30 space-y-6 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-600/10 rounded-full blur-2xl"></div>

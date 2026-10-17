@@ -5,7 +5,7 @@ const mocks = {
     <div className="grid grid-cols-3 gap-2 p-3">
       {['from-rose-400 to-orange-300', 'from-sky-400 to-indigo-400', 'from-emerald-400 to-teal-300', 'from-amber-300 to-yellow-200', 'from-fuchsia-400 to-pink-300', 'from-violet-400 to-purple-300'].map((g, i) => (
         <div key={i} className="space-y-1.5">
-          <div className={`aspect-square rounded-lg bg-gradient-to-br ${g}`} />
+          <div className={`aspect-square rounded-lg bg-linear-to-br ${g}`} />
           <Bar w="w-3/4" /><Bar w="w-1/3" c="bg-emerald-400/70" />
         </div>
       ))}
@@ -21,7 +21,7 @@ const mocks = {
       </div>
       <div className="grid grid-cols-3 gap-2 pt-2">
         {[0, 1, 2].map((i) => (
-          <div key={i} className="flex items-center gap-2"><div className="w-6 h-6 rounded-full bg-gradient-to-br from-indigo-400 to-purple-400" /><Bar w="w-12" /></div>
+          <div key={i} className="flex items-center gap-2"><div className="w-6 h-6 rounded-full bg-linear-to-br from-indigo-400 to-purple-400" /><Bar w="w-12" /></div>
         ))}
       </div>
     </div>
@@ -39,8 +39,8 @@ const mocks = {
     </div>
   ),
   skincare: (
-    <div className="flex h-full items-center gap-4 p-4 bg-gradient-to-br from-pink-500/20 to-rose-300/10">
-      <div className="w-2/5 aspect-[3/4] rounded-[40%] bg-gradient-to-br from-pink-300 to-rose-400 shadow-xl" />
+    <div className="flex h-full items-center gap-4 p-4 bg-linear-to-br from-pink-500/20 to-rose-300/10">
+      <div className="w-2/5 aspect-3/4 rounded-[40%] bg-linear-to-br from-pink-300 to-rose-400 shadow-xl" />
       <div className="flex-1 space-y-2">
         <Bar h="h-3" w="w-3/4" c="bg-pink-200/70" /><Bar /><Bar w="w-2/3" />
         <div className="mt-3 h-6 w-20 rounded-full bg-pink-400" />
@@ -56,7 +56,7 @@ export default function ProjectPreview({ slug, kind, url }) {
         <span className="flex gap-1.5"><i className="w-2 h-2 rounded-full bg-red-400/80" /><i className="w-2 h-2 rounded-full bg-yellow-400/80" /><i className="w-2 h-2 rounded-full bg-emerald-400/80" /></span>
         <span className="mx-auto text-[10px] text-gray-400 truncate">{url.replace('https://', '').replace(/\/$/, '')}</span>
       </div>
-      <div className="relative aspect-[16/10] overflow-hidden">
+      <div className="relative aspect-16/10 overflow-hidden">
         {mocks[kind]}
         {/* Real screenshot overrides the mock when public/projects/<slug>.png exists */}
         <img

@@ -8,8 +8,9 @@ export default function Contact() {
     e.preventDefault();
     const d = Object.fromEntries(new FormData(e.currentTarget));
     const text = `Hi Ayomide, I'm ${d.name} (${d.contact}).\nSubject: ${d.subject}\n\n${d.message}`;
-    window.open(`https://wa.me/2348162487439?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
-    setSubmitted(true);
+    const url = `https://wa.me/2348162487439?text=${encodeURIComponent(text)}`;
+    const win = window.open(url, '_blank');
+    if (win) { win.opener = null; setSubmitted(true); } else{ window.location.href = url; }
   };
 
   return (
@@ -144,7 +145,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 shadow-xl shadow-indigo-600/25 transition-all flex items-center justify-center gap-2"
+                  className="w-full py-4 rounded-xl font-semibold text-white bg-linear-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 shadow-xl shadow-indigo-600/25 transition-all flex items-center justify-center gap-2"
                 >
                   Send Message <Send className="w-4 h-4" />
                 </button>
